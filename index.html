@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blogging Website</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css">
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="nav container">
+        <a href="#" class="logo">Bhavs's <span>Blogs</span></a>
+        <a href="signup.html" class="login">Sign Up</a>
+      </div>
+    </header>
+
+    <section class="home" id="home">
+      <div class="home-text container">
+        <h2 class="home-title">Bhav's Blogs</h2>
+        <span class="home-subtitle">Your source of impeccable content!</span>
+      </div>
+    </section>
+
+    <section class="about container" id="about">
+        <div class="contentBx">
+            <h2 class="titleText">Catch Up with the Trending Topics</h2>
+            <p class="title-text">
+                Stay informed about the latest trends shaping the world today. 
+                From groundbreaking advancements in technology and AI to global economic shifts, 
+                social movements, and lifestyle innovations, we bring you insights into what’s making headlines. 
+                Whether it's the rise of sustainable living, the impact of digital transformation, or 
+                the newest health and wellness trends, we've got you covered.
+                <br />
+                Explore expert analyses, in-depth articles, and discussions on topics that matter. 
+                Keep up with the fast-paced world and stay ahead of the curve with curated content 
+                designed to inform, inspire, and engage.
+            </p>
+        <a href="#" class="btn2">Read more</a>
+      </div>
+      <div class="imgBx">
+        <img src="about.png" alt="About" class="fitBg" />
+      </div>
+    </section>
+
+    <div class="post-filter container">
+      <span class="filter-item active-filter" data-filter="all">All</span>
+      <span class="filter-item" data-filter="tech">Tech</span>
+      <span class="filter-item" data-filter="food">Food</span>
+      <span class="filter-item" data-filter="news">News</span>
+    </div>
+
+    <div class="post container">
+      <!-- Post 1 -->
+<div class="post-box tech">
+    <img src="img1.jpg" alt="Technology" class="post-img" />
+    <h2 class="category">Tech</h2>
+    <a href="#" class="post-title">How to Create the Best UI with Figma</a>
+    <span class="post-date">05 Feb 2025</span>
+    <p class="post-description">
+        Figma is a powerful design tool that allows designers to create stunning user interfaces (UI) 
+        with ease. To build the best UI, focus on consistency, intuitive layouts, and responsiveness. 
+        Utilize Figma’s components, auto-layout, and collaboration features to streamline workflows 
+        and maintain design uniformity. Mastering typography, color theory, and spacing can further 
+        enhance user experience and engagement.
+    </p>
+    <div class="profile">
+        <img src="testi1.jpg" alt="Bridget" class="profile-img" />
+        <span class="profile-name">Stella</span>
+    </div>
+</div>
+
+<!-- Post 2 -->
+<div class="post-box food">
+    <img src="img2.jpg" alt="some image" class="post-img" />
+    <h2 class="category">Food</h2>
+    <a href="#" class="post-title">Great Fruits to Include in Your Diet!</a>
+    <span class="post-date">08 Feb 2025</span>
+    <p class="post-description">
+        Eating a variety of fruits can provide essential nutrients and health benefits. 
+        Some great options include berries for antioxidants, bananas for energy, oranges for vitamin C, 
+        and avocados for healthy fats. Including these fruits in your diet can boost immunity, 
+        improve digestion, and contribute to overall well-being.
+    </p>
+    <div class="profile">
+        <img src="testi4.jpeg" alt="Stella" class="profile-img" />
+        <span class="profile-name">Bridget</span>
+    </div>
+</div>
+
+<!-- Post 3 -->
+<div class="post-box tech">
+    <img src="img3.jpg" alt="Bridget" class="post-img" />
+    <h2 class="category">Tech</h2>
+    <a href="#" class="post-title">How You Could Invest Your Time in Learning Web Development?</a>
+    <span class="post-date">12 Feb 2025</span>
+    <p class="post-description">
+        Learning web development can open doors to exciting career opportunities. Start with HTML, CSS, 
+        and JavaScript for front-end development, then explore frameworks like React or Vue.js. For back-end, 
+        learn Node.js, Python, or PHP. Consistent practice, online tutorials, and real-world projects will 
+        enhance your skills and make you a proficient developer.
+    </p>
+    <div class="profile">
+        <img src="testi1.jpg" alt="profile" class="profile-img" />
+        <span class="profile-name">Stella</span>
+    </div>
+</div>
+
+<!-- Post 4 -->
+<div class="post-box news">
+    <img src="img4.jpg" alt="" class="post-img" />
+    <h2 class="category">News</h2>
+    <a href="#" class="post-title">5 Places to Visit with Your Parents!</a>
+    <span class="post-date">31 Jan 2025</span>
+    <p class="post-description">
+        Traveling with parents is a great way to bond and create lasting memories. 
+        Consider visiting places like historical landmarks, scenic nature retreats, 
+        spiritual destinations, beach resorts, or cultural heritage sites. 
+        Destinations such as Kyoto, Rome, Santorini, Swiss Alps, or Bali offer 
+        enriching experiences that cater to all age groups.
+    </p>
+    <div class="profile">
+        <img src="testi2.jpg" alt="profile" class="profile-img" />
+        <span class="profile-name">Noah</span>
+    </div>
+</div>
+
+      <!-- Post 5 -->
+      <div class="post-box tech">
+        <img src="img5.jpg" alt="Tech" class="post-img" />
+        <h2 class="category">Tech</h2>
+        <a href="#" class="post-title">How to Improve Productivity in Coding?</a>
+        <span class="post-date">25 Jan 2025</span>
+        <p class="post-description">
+            Boosting coding productivity requires the right mindset, tools, and techniques. 
+            Utilizing efficient code editors, automating repetitive tasks, and following 
+            best practices like writing clean, modular code can enhance workflow. 
+            Time management strategies such as the Pomodoro Technique and avoiding distractions 
+            help maintain focus. Additionally, staying updated with the latest frameworks 
+            and collaborating with peers can significantly improve coding efficiency.
+        </p>
+        <div class="profile">
+            <img src="testi4.jpeg" alt="" class="profile-img" />
+            <span class="profile-name">Bridget</span>
+        </div>
+    </div>
+    
+      <!-- Post 6 -->
+      <div class="post-box news">
+        <img src="img4.jpg" alt="" class="post-img" />
+        <h2 class="category">News</h2>
+        <a href="#" class="post-title">How Would the World React to World War 3?</a>
+        <span class="post-date">10 Jan 2025</span>
+        <p class="post-description">
+            A potential World War 3 would have devastating global consequences, impacting economies, 
+            politics, and daily life. Nations would likely form alliances, leading to widespread military 
+            conflicts and humanitarian crises. The role of nuclear weapons, cyber warfare, and AI-driven 
+            defense systems would change modern warfare dynamics. Global organizations like the UN would 
+            attempt diplomatic interventions, but the long-term effects on global stability and economies 
+            could be catastrophic.
+        </p>
+        <div class="profile">
+            <img src="testi2.jpg" alt="profile" class="profile-img" />
+            <span class="profile-name">Noah</span>
+        </div>
+    </div>
+    
+      <!-- Post 7 -->
+      <div class="post-box tech">
+        <img src="img7.jpg" alt="Tech" class="post-img" />
+        <h2 class="category">Tech</h2>
+        <a href="#" class="post-title">How GenAI Transforms Living?</a>
+        <span class="post-date">07 Jan 2025</span>
+        <p class="post-description">
+            Generative AI (GenAI) is revolutionizing daily life by enhancing automation, 
+            creativity, and productivity. From AI-powered virtual assistants and personalized 
+            recommendations to advanced healthcare diagnostics and smart home systems, 
+            GenAI is making life more efficient and convenient. However, ethical concerns, 
+            job displacement, and misinformation challenges highlight the need for responsible AI use.
+        </p>
+        <div class="profile">
+            <img src="testi1.jpg" alt="profile" class="profile-img" />
+            <span class="profile-name">Stella</span>
+        </div>
+    </div>
+    
+      <!-- Post 8 -->
+      <div class="post-box news">
+        <img src="img8.jpg" alt="" class="post-img" />
+        <h2 class="category">News</h2>
+        <a href="#" class="post-title">Social Media and Its Influence on Societal Issues!</a>
+        <span class="post-date">19 Jan 2025</span>
+        <p class="post-description">
+            Social media plays a crucial role in shaping public opinion and influencing societal issues. 
+            From raising awareness about global movements to spreading misinformation, its impact is immense. 
+            While platforms help amplify voices and bring attention to important causes, they also contribute 
+            to polarization and online toxicity. The challenge lies in using social media responsibly to foster 
+            positive change while combating its negative effects.
+        </p>
+        <div class="profile">
+            <img src="testi2.jpg" alt="profile" class="profile-img" />
+            <span class="profile-name">Noah</span>
+        </div>
+    </div>
+    
+      <!-- Post 9 -->
+      <div class="post-box food">
+        <img src="img10.jpg" alt="" class="post-img" />
+        <h2 class="category">Food</h2>
+        <a href="#" class="post-title">Junk vs Obese - A Global Issue!</a>
+        <span class="post-date">09 Feb 2025</span>
+        <p class="post-description">
+            The rise in junk food consumption has led to a global obesity crisis, affecting millions. 
+            Processed foods high in sugar, unhealthy fats, and preservatives contribute to weight gain, 
+            heart disease, and diabetes. Governments and health experts are urging people to choose 
+            healthier alternatives and adopt balanced diets to combat this growing issue.
+        </p>
+          <div class="profile">
+          <img src="testi4.jpeg" alt="profile" class="profile-img" />
+          <span class="profile-name">Bridget</span>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer-container">
+        <div class="sec aboutus">
+            <h2>About Me</h2>
+            <p>
+                I am a passionate and creative individual with a strong interest in 
+                technology, design, and content creation. With a background in 
+                web development and UI/UX design, I enjoy crafting seamless digital 
+                experiences. My journey is fueled by curiosity and a drive to explore 
+                new trends, from AI innovations to modern design principles.
+                <br /><br />
+                When I’m not working on projects, I love diving into new learning 
+                opportunities, sharing knowledge, and staying updated with the latest 
+                industry insights. Let's connect and explore the ever-evolving world 
+                of technology together!
+            </p>
+            
+          <ul class="sci">
+            <li>
+              <a href="#"><i class="bx bxl-facebook"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="bx bxl-instagram"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="bx bxl-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="bx bxl-linkedin"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="sec quicklinks">
+          <h2>Quick Links</h2>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+          </ul>
+        </div>
+        <div class="sec contactBx">
+          <h2>Contact Info</h2>
+          <ul class="info">
+            <li>
+              <span><i class="bx bxs-map"></i></span>
+              <span
+                >1-27 Near Govt High School <br />
+                Lakshmipuram<br />
+                Andhrapradesh</span
+              >
+            </li>
+            <li>
+              <span><i class="bx bx-envelope"></i></span>
+              <p>
+                <a href="mailto:bhavanisiri692@gmail.com"
+                  >sirisollasravani@gmail.com</a
+                >
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+      integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
